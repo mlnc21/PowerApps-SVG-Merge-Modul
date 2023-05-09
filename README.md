@@ -21,7 +21,8 @@ Fügen Sie Bilder in PowerApps nahtlos zusammen, ohne auf komplexe Codierung ode
 
 ## Video
 
-[![HowToVideo](Images/How_To.png)](Videos/How_To.mp4)
+https://github.com/mlnc21/PowerApps-SVG-Merge-Modul/assets/80674540/d096e6ee-9208-49b5-b75b-3bbae3e73f1c
+
 
 
 ## Features V1.1.0
