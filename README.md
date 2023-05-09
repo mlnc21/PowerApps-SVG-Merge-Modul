@@ -1,8 +1,11 @@
 
 # PowerApps-SVG-Merge-Modul
 
-Merge Images in PowerApps without Flow or Code Components
+`EN`
+Merge multiple images seamlessly in PowerApps without the need for any complex coding or external flow components. With the easy-to-use Over Layer Settings, you can easily adjust the order of any layers, while the Over Text Settings lets you add and position text over the arrows with or without a bounding box. The result is a high-quality *.SVG image that you can download.
 
+`DE`
+Fügen Sie Bilder in PowerApps nahtlos zusammen, ohne auf komplexe Codierung oder externe Flow-Komponenten angewiesen zu sein. Mit den einfachen Over-Layer-Einstellungen können Sie die Reihenfolge der Ebenen anpassen, während Sie mit den Over-Text-Einstellungen Texte mit und ohne Begrenzungsrahmen hinzufügen und die Position der Texte über die Pfeile ändern können. Das Ergebnis wird in einer hochwertigen *.SVG-Datei generiert, die Sie herunterladen können.
 
 
 ## Screenshots
@@ -23,6 +26,7 @@ Merge Images in PowerApps without Flow or Code Components
 
 ## Features V1.1.0
 
+- Text Control
 - Layer Control
 
 ## Minimal Path to Awesome
