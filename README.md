@@ -16,7 +16,9 @@ Merge Images in PowerApps without Flow or Code Components
 ![App Screenshot](Images/img7.png)
 ![App Screenshot](Images/img8.png)
 
+## Video
 
+[![HowToVideo](Images/How_To.png)](Videos/How_To.mp4)
 
 
 ## Features V1.1.0
