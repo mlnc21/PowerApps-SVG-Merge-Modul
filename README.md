@@ -96,9 +96,8 @@ Die Struktur eines Data URI besteht aus dem Schema "data:", gefolgt von einem Me
 
 ## Video
 
-https://github.com/mlnc21/PowerApps-SVG-Merge-Modul/assets/80674540/d096e6ee-9208-49b5-b75b-3bbae3e73f1c
-
-
+![Demo1](https://github.com/mlnc21/PowerApps-SVG-Merge-Modul/blob/731fa7de6781959fcd194fc9e766ee6c7925e5be/Videos/Demo_1.gif)
+![Demo 2 with Background Image](https://github.com/mlnc21/PowerApps-SVG-Merge-Modul/blob/731fa7de6781959fcd194fc9e766ee6c7925e5be/Videos/Demo_2.gif)
 
 ## Features
 - Convert SVG to JPG
