@@ -1,23 +1,19 @@
 
 # PowerApps-SVG-Merge-Modul
 
-`EN`
-Merge multiple images seamlessly in PowerApps without the need for any complex coding or external components. With the easy-to-use 🎨 Over Layer Settings, you can easily adjust the order of any layers, while the ✍️ Over Text Settings lets you add and position text over the arrows with or without a bounding box. The result is a high-quality 🌟*.SVG image that you can download.
+Merge multiple images seamlessly in PowerApps without the need for complex coding or external components. With the easy-to-use 🎨 Over Layer Settings, you can easily adjust the order of layers, while the ✍️ Over Text Settings allow you to add and position text over the arrows with or without a bounding box. The result is a high-quality 🌟*.SVG image that you can download.
 
-`DE`
-Fügen Sie Bilder in PowerApps nahtlos zusammen, ohne auf komplexe Codierung oder externe Komponenten angewiesen zu sein. Mit den einfachen 🎨 Over-Layer-Einstellungen können Sie die Reihenfolge der Ebenen anpassen, während Sie mit den ✍️ Over-Text-Einstellungen Texte mit und ohne Begrenzungsrahmen hinzufügen und die Position der Texte über die Pfeile ändern können. Das Ergebnis wird in einer hochwertigen 🌟*.SVG-Datei generiert, die Sie herunterladen können.
+**Increased flexibility with "FileContent" and "SVG Raw" in the conversion process**
 
-**Erhöhte Flexibilität durch "FileContent" und "SVG Raw" im Konvertierungsprozess**
+Using "FileContent" and "SVG Raw" in our conversion tool provides increased flexibility, allowing us to seamlessly convert SVG files into other formats and use them for various purposes. These features open up a wide range of possibilities for effectively processing our SVG files and utilizing them optimally in our projects.
 
-Die Verwendung von "FileContent" und "SVG Raw" in unserem Konvertierungstool bietet eine erhöhte Flexibilität und ermöglicht es uns, SVG-Dateien nahtlos in andere Formate umzuwandeln und sie vielseitig für verschiedene Zwecke einzusetzen. Diese Funktionen eröffnen uns eine Vielzahl von Möglichkeiten, um unsere SVG-Dateien effektiv zu verarbeiten und sie optimal in unseren Projekten zu nutzen.
+**"SVG Raw" - Unmodified SVG code**
 
-**"SVG Raw" - Unveränderter SVG-Code**
+"SVG Raw" contains the unconverted, unmodified SVG code. With this feature, we have direct access to the original content of our SVG file, allowing us to use the SVG file directly and without any modifications when needed. 📄🔍
 
-"SVG Raw" enthält den unkonvertierten, unveränderten SVG-Code. Mit dieser Funktion haben wir direkten Zugriff auf den ursprünglichen Inhalt unserer SVG-Datei. Dadurch können wir die SVG-Datei bei Bedarf direkt und ohne Veränderungen verwenden. 📄🔍
+**"FileContent" - Data URI structure**
 
-**"FileContent" - Data URI-Struktur**
-
-Die Struktur eines Data URI besteht aus dem Schema "data:", gefolgt von einem Medientyp (z. B. "text/plain" für Text oder "image/svg+xml" für SVG-Bilder), einem optionalen Zeichensatz und den eigentlichen Daten, die codiert und in Base64 umgewandelt werden.
+The structure of a Data URI consists of the schema "data:", followed by a media type (e.g., "text/plain" for text or "image/svg+xml" for SVG images), an optional character set, and the actual data, which is encoded and converted to Base64.
 
 ## Image Generator Properties
 
@@ -26,27 +22,27 @@ Die Struktur eines Data URI besteht aus dem Schema "data:", gefolgt von einem Me
 - **Image Name**
   - Type: String
   - Default: Blank
-  - Description: Image Name for File Name
+  - Description: Name of the image for the file name
 
 - **Image Background**
   - Type: Image
   - Default: Sample Image
-  - Description: Default Background Image
+  - Description: Default background image
 
 - **Output Image Size**
   - Type: Record (Integers)
   - Default: {Width:640, Height:640}
-  - Description: Image Output Size
+  - Description: Size of the output image
 
 - **Custom Title**
   - Type: String
   - Default: $"Sample_{RandBetween(1,123456)}"
-  - Description: Image Name for File Name without Extension
+  - Description: Name of the image for the file name without extension
 
 - **Image Background Position**
   - Type: Enum
   - Default: ImagePosition.Fit
-  - Description: Image Background Position
+  - Description: Position of the image background
 
 - **Offset Background**
   - Type: Record (Integers)
@@ -61,59 +57,57 @@ Die Struktur eines Data URI besteht aus dem Schema "data:", gefolgt von einem Me
 - **Show Extended Control**
   - Type: Boolean
   - Default: true
-  - Description: Show Menuicons
+  - Description: Show menu icons
 
 - **Text Colors**
   - Type: Array
-  - Default: List of Colors
-  - Description: Colorlist for Text
+  - Default: List of colors
+  - Description: Color list for text
 
 - **Arrow Pressed Color**
   - Type: Color
   - Default: RGBA(243, 139, 66, 1)
-  - Description: Text Arrows Pressed Color
+  - Description: Color of the text arrows when pressed
 
 - **Menu Icon Size**
   - Type: Integer
   - Default: 60
-  - Description: Menu Icon Size
+  - Description: Size of the menu icons
 
 - **Original Image Size**
   - Type: Boolean
   - Default: false
-  - Description: use the Original Image Size as Output Size
+  - Description: Use the original image size as the output size
 
 #### Output
 
-- **Generated Output Data**
-  - FileName (Filename with Extension)
-  - FileSize (Image Size like 640x640)
-  - FileContent (Data URI Schema)
-  - RawContent (RAW SVG File)
-  - File (Generated File for z. B. Verwendung im Attachment Control)
+-- **Generated Output Data**
+  - FileName: The filename with its extension
+  - FileSize: The size of the image (e.g., 640x640)
+  - FileContent: The data in URI schema format
+  - RawContent: The raw SVG file data
+  - File: The generated file (e.g., for use in Attachment Control)
   - Schema: { Name: "", Value: "" }
 
-
-## Video
+## Video Demonstrations
 
 ![Demo1](https://github.com/mlnc21/PowerApps-SVG-Merge-Modul/blob/731fa7de6781959fcd194fc9e766ee6c7925e5be/Videos/Demo_1.gif)
 ![Demo 2 with Background Image](https://github.com/mlnc21/PowerApps-SVG-Merge-Modul/blob/731fa7de6781959fcd194fc9e766ee6c7925e5be/Videos/Demo_2.gif)
 
 ## Features
 - Convert SVG to JPG
-- Generate SVG RAW + File Content (Name,Value)
-- Pen Color Control
-- Pen Size Control
-- Text Control
-- Layer Control
+- Generate SVG RAW + File Content (Name, Value)
+- Control pen color
+- Control pen size
+- Control text
+- Control layers
 
-## Minimal Path to Awesome
+## Quick Start Guide
 
-* [Download](SVGMergeModulExample.zip) the `.zip`
-* Within **make.powerapps.com**, use the `.zip` file using **App** > **Import Canvas App**  and select the `.zip` file you just downloaded.
-* Select the **Upload** Button
-
-* Give your Uploaded `.zip` a **AppName** and **Import** the App.
+* [Download](SVGMergeModulExample.zip) the `.zip` file
+* Go to **make.powerapps.com**, use the `.zip` file via **App** > **Import Canvas App** and select the `.zip` file you just downloaded.
+* Click the **Upload** button
+* Name your uploaded `.zip` file under **AppName** and **Import** the app.
 
 ## Disclaimer
 
