@@ -109,6 +109,25 @@ The structure of a Data URI consists of the schema "data:", followed by a media 
 * Click the **Upload** button
 * Name your uploaded `.zip` file under **AppName** and **Import** the app.
 
+## FAQ
+
+### How can I resolve the issue with the component behavior property return type check?
+
+You can resolve this issue in two ways:
+
+1. **Disable the outdated feature**:
+   - Open the app.
+   - Go to **Settings** > **Updates** > **Retired**.
+   - Disable the option **"Disable component behavior property return type check"**.
+![image](https://github.com/user-attachments/assets/23836c62-059b-4578-b4d9-c282d7db912b)
+
+2. **Use IfError**:
+   - Wrap the actions with **IfError** to check the return type.
+![image](https://github.com/user-attachments/assets/b25be280-f1ba-4a5d-9f0e-56e8b463788d)
+
+These steps should help resolve the issue.
+
+
 ## Disclaimer
 
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
