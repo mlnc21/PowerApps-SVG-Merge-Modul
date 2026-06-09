@@ -79,6 +79,11 @@ The structure of a Data URI consists of the schema "data:", followed by a media 
   - Default: false
   - Description: Use the original image size as the output size
 
+- **Rotate Background**
+  - Type: Number
+  - Default: 0
+  - Description: Rotate the background image by the specified number of degrees (e.g. 90, 180, 270). Uses SVG `transform="rotate(...)"` centered on the image. Useful for correcting photos with incorrect orientation information.
+
 #### Output
 
 -- **Generated Output Data**
@@ -101,6 +106,7 @@ The structure of a Data URI consists of the schema "data:", followed by a media 
 - Control pen size
 - Control text
 - Control layers
+- Rotate background image and individual photo layers
 
 ## Quick Start Guide
 
