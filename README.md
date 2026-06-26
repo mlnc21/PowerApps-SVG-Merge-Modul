@@ -1,4 +1,4 @@
-# PowerApps SVG Merge Modul
+# PowerApps SVG Merge Module
 
 Merge multiple images in PowerApps without complex code or external components.  
 Use the layer settings to control the order of elements, and the text settings to place text on top of arrows with or without a background box. The result is a high-quality SVG image that you can download or use in your app.
